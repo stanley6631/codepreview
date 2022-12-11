@@ -1,0 +1,45 @@
+.icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  background: no-repeat center;
+  background-size: contain;
+}
+
+svg {
+  fill: #fff;
+  transition: all 300ms ease;
+}
+
+.icon-menu {
+  background-image: url(image-path('svg/menu.svg'));
+}
+
+.icon-close {
+  background-image: url(image-path('svg/close.svg'));
+}
+
+.icon-pdf {
+  background-image: url(image-path('svg/pdf.svg'));
+}
+
+.icon-pdf-gold {
+  background-image: url(image-path('svg/pdf-gold.svg'));
+}
+
+.icon-plus {
+  background-image: url(image-path('svg/plus.svg'));
+}
+
+.icon-minus {
+  background-image: url(image-path('svg/minus.svg'));
+}
+
+.icon-free {
+  background-image: url(image-path('svg/free.svg'));
+}
+
+.icon-x {
+  background-image: url(image-path('svg/x.svg'));
+}

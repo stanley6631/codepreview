@@ -1,0 +1,145 @@
+.new-gallery {
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      transition: all 300ms ease;
+    }
+
+    &:hover {
+      &::after {
+        background: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.new-intro {
+  background-color: #ededed;
+  margin-top: 78px;
+
+  h1 {
+    color: #0b0c0b;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 1.15px;
+    font-weight: 700;
+
+    @media (min-width: 992px) {
+      font-size: 57px;
+    }
+  }
+
+  &-date {
+    color: #fff;
+    background-color: $primary;
+    height: 75px;
+    width: 75px;
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 992px) {
+      height: 130px;
+      width: 130px;
+      font-size: 26px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 90px;
+  }
+}
+
+.breadcrumb {
+  padding: 1.25rem 0;
+  margin-bottom: 50px;
+
+  &-item {
+    color: #858585;
+    text-transform: uppercase;
+
+    a {
+      color: #858585;
+      text-transform: uppercase;
+      letter-spacing: 1.49px;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    & + .breadcrumb-item {
+      display: inline-flex;
+      align-items: center;
+
+      &::before {
+        content: '';
+        width: 0.75rem;
+        height: 0.75rem;
+        background: url(image-path('svg/caret-breadcrumb.svg')) no-repeat center;
+        background-size: contain;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 130px;
+  }
+}
+
+.new-text {
+  margin-bottom: 50px;
+
+  h2 {
+    margin-bottom: 50px;
+    position: relative;
+
+    &::before {
+      content: '';
+      width: 30px;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      bottom: -1rem;
+      background-color: $primary;
+    }
+
+    @media (min-width: 992px) {
+      margin-bottom: 70px;
+    }
+  }
+
+  p {
+    color: #858585;
+    text-align: justify;
+    letter-spacing: 0.04px;
+    line-height: 30px;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 130px;
+  }
+}

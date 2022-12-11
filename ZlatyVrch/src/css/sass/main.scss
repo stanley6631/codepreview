@@ -1,0 +1,15 @@
+@import '../../../node_modules/slick-carousel/slick/slick';
+@import '../../../node_modules/slick-carousel/slick/slick-theme';
+@import "custom";
+@import "global";
+@import "icons";
+@import "homepage";
+@import "detail";
+@import "new";
+
+//components
+@import "components/header";
+@import "components/footer";
+
+//animations
+@import "animations";

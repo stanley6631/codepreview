@@ -1,0 +1,52 @@
+{
+  "name": "stapos-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.42.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "bootstrap": "^5.1.0",
+    "browser-sync": "^2.27.4",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "counterup2": "^2.0.1",
+    "css-loader": "^5.2.6",
+    "extra-watch-webpack-plugin": "^1.0.3",
+    "fslightbox": "^3.3.0-2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "jquery": "^3.6.0",
+    "jquery-lazy": "^1.7.11",
+    "mini-css-extract-plugin": "^2.0.0",
+    "nunjucks": "^3.2.3",
+    "nunjucks-webpack-plugin": "^5.0.0",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "slick-carousel": "^1.8.1",
+    "url-loader": "^4.1.1",
+    "waypoints": "^4.0.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/notdevs/stapos-templates.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/notdevs/stapos-templates/issues"
+  },
+  "homepage": "https://gitlab.com/notdevs/stapos-templates#readme"
+}

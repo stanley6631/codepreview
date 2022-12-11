@@ -1,0 +1,569 @@
+{% extends "./base.html" %}
+
+{% block header %}
+{% include "./partials/header-detail.html" %}
+{% endblock %}
+
+{% block content %}
+  <div class="view">
+    <section class="detail-top d-flex flex-column">
+      <img src="img/jpg/detail-main.jpg" alt="" class="detail-top-img">
+      <div class="container mt-auto">
+        <h1>
+          vila <strong>andromeda</strong>
+        </h1>
+        <div class="row">
+          <div class="col-6 col-lg-3 d-flex justify-content-center">
+            <div class="detail-top-info">
+              DISPOZICE
+              <span>5kk</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 d-flex justify-content-center">
+            <div class="detail-top-info">
+              garáž
+              <span>12.34 m2</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 d-flex justify-content-center">
+            <div class="detail-top-info">
+              UŽITNÁ PLOCHA
+              <span>123.4 m2</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 d-flex justify-content-center">
+            <div class="detail-top-info">
+              počet podlaží
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="detail-desc">
+      <div class="container-fluid px-0">
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <div class="detail-desc-text">
+              <h2>
+                Vila pro ty,<br>
+                <strong>kteří nehledají kompromisy</strong>
+              </h2>
+              <p class="excerpt">
+                Monumentální moderní architektura tohoto domu je navržena tak, aby vyjadřovala životní postoje svého majitele. Jednoduché ale jasné hmoty přízemí a patra jsou na sebe prostě položeny, ale jejich vzájemné proporce jsou navrženy tak, aby působily dynamicky. Základní koncepcí domu je jednoduchost v kombinaci s rafinovanými detaily, jako jsou např. venkovní světlíky nad vstupem a nad zahradní terasou.
+              </p>
+              <p>
+                Vstup do domu je překryt výraznou hmotou střechy a tento prvek se opakuje i na fasádě orientované do zahrady. Velká francouzská okna hlavního obytného prostoru propojují interiér s exteriérem a poskytují majiteli výjimečný zážitek. Dominantním prvkem obývacího pokoje je schodiště, které lze architektonicky ztvárnit mnoha způsoby.
+              </p>
+              <p>
+                Vila umožňuje bohaté možnosti interiérových variant. Ložnici lze rozšířit, propojit ji se šatnou nebo vytvořit novou koupelnu. Část druhého podlažní lze nahradit galerií čímž vznikne monumentální otevřený prostor přes dvě podlaží, který naprosto změní charakter interiéru. Garáž pro dva automobily a prostor pro skladování věcí jsou samozřejmostí. Vila Andromeda je určena pro nejnáročnější klienty, kteří nehledají kompromisy.
+              </p>
+              <div class="d-flex flex-column flex-md-row align-items-center mt-5">
+                <a href="#" class="btn btn-lg btn-primary mb-3 mb-md-0 me-md-4">kontaktujte nás</a>
+                <a href="#" class="btn btn-lg btn-secondary">stáhnout kartu domu <span class="icon icon-pdf-gold"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="detail-desc-img">
+              <img src="img/png/family-houses-img.png" alt="" class="w-100 h-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="detail-parts">
+      <div id="gallery1" class="detail-parts-slider js-detail-parts-slider">
+        <img src="img/jpg/detail-slider.jpg" alt="">
+        <img src="img/jpg/detail-slider.jpg" alt="">
+        <img src="img/jpg/detail-slider.jpg" alt="">
+      </div>
+      <div class="detail-parts-slider-nav js-detail-parts-slider-nav" data-id="#gallery1">
+        <div class="item active" data-slide="0">
+          obývací <br>
+          pokoj
+        </div>
+        <div class="item" data-slide="1">
+          Kuchyňský <br>
+          kout
+        </div>
+        <div class="item" data-slide="2">
+          pokoj
+        </div>
+      </div>
+    </section>
+    <section class="detail-np">
+      <div class="container-fluid px-0">
+        <div class="row g-0">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div id="npDesc" class="detail-np-desc w-100">
+              <div id="card1" class="card active">
+                <h2 class="d-flex align-items-center justify-content-between">
+                  1. NP
+                  <span>165 m2</span>
+                </h2>
+                <div class="detail-desc-table mb-4">
+                  <h3 class="d-flex align-items-center justify-content-between">
+                    exteriér
+                    <span>55 m2</span>
+                  </h3>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>terasa</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>terasa</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>terasa</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100">
+                    <span class="me-5">1.01</span>
+                    <span>terasa</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                </div>
+                <div class="detail-desc-table mb-5">
+                  <h3 class="d-flex align-items-center justify-content-between">
+                    interiér
+                    <span>120 m2</span>
+                  </h3>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>obývací pokoj</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>kuchyňský kout</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>obývací pokoj</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>kuchyňský kout</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>obývací pokoj</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>kuchyňský kout</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>obývací pokoj</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100">
+                    <span class="me-5">1.01</span>
+                    <span>kuchyňský kout</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                  <a href="#" class="btn btn-primary">stáhnout kartu domu <span class="icon icon-pdf"></span></a>
+                </div>
+              </div>
+              <div id="card2" class="card">
+                <h2 class="d-flex align-items-center justify-content-between">
+                  2. NP
+                  <span>265 m2</span>
+                </h2>
+                <div class="detail-desc-table mb-4">
+                  <h3 class="d-flex align-items-center justify-content-between">
+                    exteriér
+                    <span>55 m2</span>
+                  </h3>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>terasa</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>terasa</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>terasa</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100">
+                    <span class="me-5">1.01</span>
+                    <span>terasa</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                </div>
+                <div class="detail-desc-table mb-5">
+                  <h3 class="d-flex align-items-center justify-content-between">
+                    interiér
+                    <span>120 m2</span>
+                  </h3>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>obývací pokoj</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>kuchyňský kout</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>obývací pokoj</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>kuchyňský kout</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>obývací pokoj</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>kuchyňský kout</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100 mb-4">
+                    <span class="me-5">1.01</span>
+                    <span>obývací pokoj</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                  <div class="d-flex align-items-center w-100">
+                    <span class="me-5">1.01</span>
+                    <span>kuchyňský kout</span>
+                    <span class="ms-auto">4,37 m2</span>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                  <a href="#" class="btn btn-primary">stáhnout kartu domu <span class="icon icon-pdf"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="detail-np-switch d-flex align-items-center justify-content-center">
+              <img src="img/png/house-plan.png" class="house-plan-img active" alt="">
+              <img src="img/png/house-plan.png" class="house-plan-img" alt="">
+              <div class="switcher">
+                <a href="#card2" class="js-switcher-link">2. NP</a>
+                <a href="#card1" class="js-switcher-link active">1. NP</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="home-standards">
+      <div class="d-flex flex-column flex-lg-row">
+        <div id="standardsTabs" class="home-standards-section home-standards-section--left order-2 order-lg-1">
+          <div class="standards-tab show" id="tab1">
+            <h2>Sanita</h2>
+            <div class="standards-accordion">
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  Umyvadla a umývátka
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  Umyvadla a umývátka
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  Umyvadla a umývátka
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  Umyvadla a umývátka
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  Umyvadla a umývátka
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <a href="#" class="btn btn-primary">
+                stáhnout standardy
+                <span class="icon icon-pdf me-0 ms-3"></span>
+              </a>
+            </div>
+          </div>
+          <div class="standards-tab" id="tab2">
+            <h2>Podlahy</h2>
+            <div class="standards-accordion">
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  WC
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  WC
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  WC
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  WC
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="standards-accordion-item">
+                <a href="#" class="standards-accordion-link js-standards-accordion-link">
+                  WC
+                  <span class="icon icon-plus ms-auto me-0"></span>
+                  <span class="icon icon-minus ms-auto me-0 d-none"></span>
+                </a>
+                <div class="standards-accordion-inner">
+                  <ul>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                    <li>dvojumyvadlo Villeroy & Boch Avento 1200 x 470 mm, barva bílá Alpin</li>
+                  </ul>
+                  <div class="standards-accordion-slider js-standards-accordion-slider">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                    <img data-lazy="img/png/standards-1.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <a href="#" class="btn btn-primary">
+                stáhnout standardy
+                <span class="icon icon-pdf me-0 ms-3"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="home-standards-section home-standards-section--right order-1 order-lg-2">
+          <h2>Standard domů</h2>
+          <div class="row g-3 g-lg-4">
+            <div class="col-6">
+              <a href="#tab2" class="home-standards-tab-link js-home-standards-tab-link">
+                <svg class="icon">
+                  <use xlink:href="img/svg/standards.svg#podlahy"></use>
+                </svg>
+                podlahy
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="#tab1" class="home-standards-tab-link js-home-standards-tab-link">
+                <svg class="icon">
+                  <use xlink:href="img/svg/standards.svg#sanita"></use>
+                </svg>
+                sanita
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="#tab1" class="home-standards-tab-link js-home-standards-tab-link">
+                <svg class="icon">
+                  <use xlink:href="img/svg/standards.svg#sanita"></use>
+                </svg>
+                sanita
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="#tab2" class="home-standards-tab-link js-home-standards-tab-link">
+                <svg class="icon">
+                  <use xlink:href="img/svg/standards.svg#podlahy"></use>
+                </svg>
+                podlahy
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="#tab2" class="home-standards-tab-link js-home-standards-tab-link">
+                <svg class="icon">
+                  <use xlink:href="img/svg/standards.svg#podlahy"></use>
+                </svg>
+                podlahy
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="#tab1" class="home-standards-tab-link js-home-standards-tab-link active">
+                <svg class="icon">
+                  <use xlink:href="img/svg/standards.svg#sanita"></use>
+                </svg>
+                sanita
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+{% endblock %}

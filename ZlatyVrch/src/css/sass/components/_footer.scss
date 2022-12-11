@@ -1,0 +1,110 @@
+.footer {
+  min-height: 100vh;
+  background: url(image-path('jpg/footer.jpg')) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+
+  &-logo {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 60px;
+
+    @media (min-width: 992px) {
+      max-width: 400px;
+      margin-bottom: 120px;
+    }
+  }
+
+  &-contact {
+    font-size: 1.25rem;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+
+    .icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      fill: $primary;
+    }
+
+    &:hover {
+      color: $primary;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 1.5rem;
+
+      .icon {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  &-logo-simplon {
+    width: 100%;
+    max-width: 200px;
+
+    @media (min-width: 992px) {
+      max-width: 300px;
+    }
+  }
+
+  &-address {
+    font-size: 1.25rem;
+    color: #969696;
+
+    strong {
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+
+  &-socials {
+    .icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      transition: all 300ms ease;
+    }
+
+    a {
+      &:hover {
+        .icon {
+          fill: $primary;
+        }
+      }
+    }
+  }
+
+  &-list {
+    li {
+      color: #969696;
+      display: inline-block;
+
+      a {
+        color: #969696;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+
+      & + li {
+        &::before {
+          content: '/';
+          display: inline-block;
+          margin: 0 0.5rem;
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 120px;
+  }
+}

@@ -1,0 +1,89 @@
+{% extends "./base.html" %}
+
+{% block header %}
+{% include "./partials/header-new.html" %}
+{% endblock %}
+
+{% block content %}
+<section class="new-intro">
+  <div class="container d-flex align-items-center justify-content-between">
+    <h1>Název aktuality</h1>
+    <div class="new-intro-date">
+      <span>21 / 10</span>
+      <span>2021</span>
+    </div>
+  </div>
+</section>
+<section class="new-text-section">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">ÚVOD</a></li>
+        <li class="breadcrumb-item"><a href="#">aktuality</a></li>
+        <li class="breadcrumb-item active" aria-current="page">název aktuality</li>
+      </ol>
+    </nav>
+    <div class="new-text">
+      <h2>Cursus nisl vestibulum viverra </h2>
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tincidunt quam, ac volutpat orci. Sed tellus arcu, lobortis sit amet vestibulum nec, fringilla vitae enim. Ut scelerisque, arcu finibus eleifend dictum, dolor libero tincidunt nulla, vel lacinia nunc nibh id orci. Pellentesque ac volutpat felis, ut aliquam enim. Nulla aliquam ac ex quis tincidunt. Nam gravida, ex vulputate vulputate hendrerit, massa dolor venenatis tellus, eu luctus felis ex vulputate odio. In in congue nibh, at mollis felis. Praesent congue consectetur blandit. Suspendisse nec tellus vel odio luctus luctus. Donec aliquam, ex vel vehicula auctor, enim dui vehicula lacus, eu ultrices dolor purus eu dui. Vivamus urna lorem, porttitor sed mattis sit amet, tincidunt in nisi.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <p>
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin fermentum libero augue, eget efficitur eros pretium quis. Sed varius rhoncus felis id venenatis. Suspendisse nibh metus, lobortis nec placerat ac, mollis id libero. Aenean vitae elit at felis vulputate commodo sed in dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In sollicitudin, ipsum et tincidunt facilisis, neque lacus porta est, ac scelerisque metus purus et tortor. Vestibulum gravida justo sit amet eros sodales porta.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="new-gallery">
+    <div class="container-fluid px-0">
+      <div class="row g-0">
+        <div class="col-6 col-lg-4 col-xl-3">
+          <a href="img/jpg/new-img-1.jpg" data-fslightbox="newGallery" class="lightbox">
+            <img src="img/jpg/new-img-1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 col-xl-3">
+          <a href="img/jpg/new-img-2.jpg" data-fslightbox="newGallery" class="lightbox">
+            <img src="img/jpg/new-img-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 col-xl-3">
+          <a href="img/jpg/new-img-1.jpg" data-fslightbox="newGallery" class="lightbox">
+            <img src="img/jpg/new-img-1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 col-xl-3">
+          <a href="img/jpg/new-img-2.jpg" data-fslightbox="newGallery" class="lightbox">
+            <img src="img/jpg/new-img-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 col-xl-3">
+          <a href="img/jpg/new-img-2.jpg" data-fslightbox="newGallery" class="lightbox">
+            <img src="img/jpg/new-img-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 col-xl-3">
+          <a href="img/jpg/new-img-1.jpg" data-fslightbox="newGallery" class="lightbox">
+            <img src="img/jpg/new-img-1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 col-xl-3">
+          <a href="img/jpg/new-img-2.jpg" data-fslightbox="newGallery" class="lightbox">
+            <img src="img/jpg/new-img-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-6 col-lg-4 col-xl-3">
+          <a href="img/jpg/new-img-1.jpg" data-fslightbox="newGallery" class="lightbox">
+            <img src="img/jpg/new-img-1.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
