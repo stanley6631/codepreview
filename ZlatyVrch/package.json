@@ -1,5 +1,5 @@
 {
-  "name": "stapos-templates",
+  "name": "zlaty-vrch",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -35,18 +35,10 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/notdevs/stapos-templates.git"
-  },
+  }
   "keywords": [
     "[]"
   ],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/notdevs/stapos-templates/issues"
-  },
-  "homepage": "https://gitlab.com/notdevs/stapos-templates#readme"
+  "license": "ISC"
 }
